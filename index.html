@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Galaxy A04 Showcase</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #fff;
+            font-family: 'Poppins', sans-serif;
+            color: #212529;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #ff7eb9;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: white !important;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        #home {
+            background: linear-gradient(rgba(255, 126, 185, 0.7), rgba(255, 126, 185, 0.7)),
+                url('/images/banner.png') no-repeat center center/cover;
+            color: #fff;
+            padding: 200px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        #home h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        #home p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+
+        /* Section Titles */
+        .section-title {
+            color: #ff7eb9;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        /* Features Section */
+        #features {
+            border-top: 2px solid #ff7eb9;
+            border-bottom: 2px solid #ff7eb9;
+        }
+
+        #features .border {
+            border-color: #ff7eb9 !important;
+        }
+
+        /* Specifications Section */
+        #specs {
+            background-color: #fff5f9;
+            border-top: 2px solid #ff7eb9;
+            border-bottom: 2px solid #ff7eb9;
+        }
+
+        table.table {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        table td {
+            vertical-align: middle;
+        }
+
+        /* Gallery Section */
+        #gallery {
+            background-color: #fff;
+        }
+
+        .gallery-box {
+            border: 2px solid #ff7eb9;
+            border-radius: 10px;
+            padding: 20px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .gallery-img {
+            max-height: 280px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        footer {
+            background-color: #ff7eb9;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 50px;
+            border-top: 3px solid #ffc4de;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Samsung Galaxy A04</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#specs">Specifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="container">
+            <h1>Samsung Galaxy A04</h1>
+            <p>A sleek and reliable smartphone built for modern users. Experience crisp photos, smooth performance, and
+                all-day power in a refined design.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container text-center">
+            <h2 class="section-title">Key Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="p-4 border rounded bg-white">
+                        <h4 style="color:#ff7eb9;">50MP Dual Camera</h4>
+                        <p>Capture stunning, detailed photos with a high-resolution dual-camera setup.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 border rounded bg-white">
+                        <h4 style="color:#ff7eb9;">5000mAh Battery</h4>
+                        <p>Stay connected longer with a powerful battery that lasts all day on a single charge.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 border rounded bg-white">
+                        <h4 style="color:#ff7eb9;">Octa-Core Processor</h4>
+                        <p>Enjoy smooth performance for apps, games, and multitasking with efficient processing power.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications Section -->
+    <section id="specs" class="py-5">
+        <div class="container text-center">
+            <h2 class="section-title">Technical Specifications</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <table class="table table-bordered text-center">
+                        <tbody>
+                            <tr>
+                                <td>Display</td>
+                                <td>6.5" HD+ PLS LCD (720 × 1600 px)</td>
+                            </tr>
+                            <tr>
+                                <td>Processor</td>
+                                <td>Octa-Core (2.3GHz, 1.8GHz)</td>
+                            </tr>
+                            <tr>
+                                <td>RAM</td>
+                                <td>4GB / 6GB options</td>
+                            </tr>
+                            <tr>
+                                <td>Storage</td>
+                                <td>64GB / 128GB (expandable up to 1TB)</td>
+                            </tr>
+                            <tr>
+                                <td>Rear Camera</td>
+                                <td>50MP (Main) + 2MP (Depth)</td>
+                            </tr>
+                            <tr>
+                                <td>Front Camera</td>
+                                <td>5MP</td>
+                            </tr>
+                            <tr>
+                                <td>Battery</td>
+                                <td>5000mAh with 15W Fast Charging</td>
+                            </tr>
+                            <tr>
+                                <td>OS</td>
+                                <td>Android 12 (One UI Core 4.1)</td>
+                            </tr>
+                            <tr>
+                                <td>Connectivity</td>
+                                <td>4G LTE, Wi-Fi, Bluetooth 5.0, USB Type-C</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 text-center">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="gallery-box">
+                        <img src="/images/front.png" class="gallery-img" alt="Galaxy A04 Front">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-box">
+                        <img src="/images/ph-galaxy-a04-sm-a045-sm-a045fzchphl-534172002.png" class="gallery-img"
+                            alt="Galaxy A04 Side">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-box">
+                        <img src="/images/back.png" class="gallery-img" alt="Galaxy A04 Back">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="mb-0">© 2025 Samsung Galaxy A04 Showcase | Created by Eliaza Mae Malibiran</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
